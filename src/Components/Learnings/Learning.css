@@ -1,0 +1,33 @@
+#timeline h3 {
+    font-weight: 500 !important;
+    color: var(--color-primary) !important;
+  }
+
+#timeline h5 {
+    font-weight: 500 !important;
+    color: var(--color-light) !important;
+  }
+
+  #timeline p {
+    font-weight: 400;
+  }
+
+  .vertical-timeline::before{
+    width: 2px !important;
+    background: #b64f0a !important;
+  }
+
+  .vertical-timeline-element-icon{
+    --web-box-shadow: none !important;
+    --box-shadow: none !important;
+  }
+
+  .vertical-timeline::after{
+    content: none !important;
+  }
+
+.vertical-timeline--animate .vertical-timeline-element-content.bounce-in{
+ -visibility: visible;
+ -webkit-animation: none !important;
+ animation: none !important;
+}

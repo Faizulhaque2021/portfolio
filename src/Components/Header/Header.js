@@ -14,10 +14,9 @@ const Header = () => {
              <Link className='desktopMenuListItem'>Blog</Link>
              <Link className='desktopMenuListItem'>Contact</Link>
             </div>
-            <button className='desktopMenuBtn'>
-                <img src='' alt='' className='desktopMenuImg'/>Resume</button>
-        </div>
-    );
+            <button className='desktopManubtn'>Resume</button>
+        </div>  
+    );   
 };
 
 export default Header;
