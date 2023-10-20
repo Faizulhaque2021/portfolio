@@ -29,5 +29,5 @@
 .vertical-timeline--animate .vertical-timeline-element-content.bounce-in{
  -visibility: visible;
  -webkit-animation: none !important;
- animation: none !important;
+ animation: none!important;
 }

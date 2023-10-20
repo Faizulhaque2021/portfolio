@@ -1,7 +1,6 @@
 .navbar{
     height: 5rem;
     width: 100vw;
-    max-width: 75rem;
     margin: 0 auto;
     padding: 1rem 2rem;
     display: flex;
@@ -9,6 +8,7 @@
     justify-content: space-between;
     position: sticky;
     top: 0%;
+    max-width: 75rem;
     z-index: 3;
 }
 
@@ -18,11 +18,12 @@
     width: 4rem;
 }
 
-.desktopMenuListItem{
+.nav-item{
     margin: 1rem;
     color: white;
     cursor: pointer;
     text-align: center;
+    display: inline-flex;
 }
 
 .desktopMenuImg{
@@ -32,12 +33,12 @@
     margin: 1rem;
 }
 
-.desktopMenuListItem:hover{
+.nav-item:hover{  
   padding-bottom: 0.5rem;
   border-bottom: 3px solid yellow ;
 }
 
-.desktopManubtn{
+.manuBtn{
     background: rgb(189, 25, 28);
     color: whitesmoke;
     border: none;

@@ -1,66 +1,77 @@
 import React from 'react';
+import './Count.css'
 
 const Count = () => {
     return (
-        <section className="p-6 my-6 dark:bg-red-800 dark:text-white-100">
-	       <div className="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
-		   <div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100">
-			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-violet-400">
-				
-					<polygon points="160 96.039 160 128.039 464 128.039 464 191.384 428.5 304.039 149.932 304.039 109.932 16 16 16 16 48 82.068 48 122.068 336.039 451.968 336.039 496 196.306 496 96.039 160 96.039"></polygon>
-					<path d="M176.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,176.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,176.984,464.344Z"></path>
-					<path d="M400.984,368.344a64.073,64.073,0,0,0-64,64h0a64,64,0,0,0,128,0h0A64.072,64.072,0,0,0,400.984,368.344Zm0,96a32,32,0,1,1,32-32A32.038,32.038,0,0,1,400.984,464.344Z"></path>
-			
-			</div>
-			<div className="flex flex-col justify-center align-middle">
-				<p className="text-3xl font-semibold leadi">20</p>
-				<p className="cursor-pointer">Total Visited</p>
-			</div>
-		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100">
-			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-violet-400">
-				
-					<path d="M256,16C123.452,16,16,123.452,16,256S123.452,496,256,496,496,388.548,496,256,388.548,16,256,16ZM403.078,403.078a207.253,207.253,0,1,1,44.589-66.125A207.332,207.332,0,0,1,403.078,403.078Z"></path>
-					<path d="M256,384A104,104,0,0,0,360,280H152A104,104,0,0,0,256,384Z"></path>
-					<polygon points="205.757 228.292 226.243 203.708 168 155.173 109.757 203.708 130.243 228.292 168 196.827 205.757 228.292"></polygon>
-					<polygon points="285.757 203.708 306.243 228.292 344 196.827 381.757 228.292 402.243 203.708 344 155.173 285.757 203.708"></polygon>
-				
-			</div>
-			<div className="flex flex-col justify-center align-middle">
-				<p className="text-3xl font-semibold leadi">7</p>
-				<p className="capitalize">Resume Download</p>
-			</div>
-		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100">
-			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-violet-400">
-				
-					<path d="M425.706,142.294A240,240,0,0,0,16,312v88H160V368H48V312c0-114.691,93.309-208,208-208s208,93.309,208,208v56H352v32H496V312A238.432,238.432,0,0,0,425.706,142.294Z"></path>
-					<rect width="32" height="32" x="80" y="264"></rect>
-					<rect width="32" height="32" x="240" y="128"></rect>
-					<rect width="32" height="32" x="136" y="168"></rect>
-					<rect width="32" height="32" x="400" y="264"></rect>
-					<path d="M297.222,335.1l69.2-144.173-28.85-13.848L268.389,321.214A64.141,64.141,0,1,0,297.222,335.1ZM256,416a32,32,0,1,1,32-32A32.036,32.036,0,0,1,256,416Z"></path>
+		<section className='p-6 my-6 dark:bg-gray-800 dark:text-gray-100'>
+			<div class="mx-5 grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
+			  <div class="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-slate-800 bg-opacity-40 backdrop-blur-md transition-all ease-in aos-init aos-animate" data-aos="zoom-in-right">
+					<div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-red-500">
+						<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-9 w-9" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M8 13v-8.5a1.5 1.5 0 0 1 3 0v7.5"></path>
+							<path d="M11 11.5v-2a1.5 1.5 0 1 1 3 0v2.5"></path>
+							<path d="M14 10.5a1.5 1.5 0 0 1 3 0v1.5"></path>
+							<path d="M17 11.5a1.5 1.5 0 0 1 3 0v4.5a6 6 0 0 1 -6 6h-2h.208a6 6 0 0 1 -5.012 -2.7a69.74 69.74 0 0 1 -.196 -.3c-.312 -.479 -1.407 -2.388 -3.286 -5.728a1.5 1.5 0 0 1 .536 -2.022a1.867 1.867 0 0 1 2.28 .28l1.47 1.47"></path>
+						</svg>
+					</div>
+				 <div class="flex flex-col justify-center align-middle">
+					<p class="text-3xl font-semibold leadi">
+						<span>282</span>+
+					</p>
+					<p class="capitalize aos-init aos-animate" data-aos="fade-right">Total Visited</p>
+				</div>
+		    </div>
 
+		<div class="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-slate-800 bg-opacity-40 backdrop-blur-md transition-all ease-in aos-init aos-animate" data-aos="zoom-in">
+			<div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-red-500">
+					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="h-9 w-9" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+						<path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"></path>
+						<path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"></path>
+					</svg>
 			</div>
-			<div className="flex flex-col justify-center align-middle">
-				<p className="text-3xl font-semibold leadi">7</p>
-				<p className="capitalize">Total Projects</p>
+			<div class="flex flex-col justify-center align-middle">
+					<p class="text-3xl font-semibold leadi">
+						<span>98</span>+
+					</p>
+					<p class="capitalize aos-init aos-animate" data-aos="fade-right">Resume Download</p>
 			</div>
+	   </div>
+
+	  <div class="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-slate-800 bg-opacity-40 backdrop-blur-md transition-all ease-in aos-init aos-animate" data-aos="zoom-in">
+			<div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-red-500">
+				<svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="h-9 w-9" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M14 7C13.4477 7 13 7.44772 13 8V16C13 16.5523 13.4477 17 14 17H18C18.5523 17 19 16.5523 19 16V8C19 7.44772 18.5523 7 18 7H14ZM17 9H15V15H17V9Z" fill="currentColor"></path>
+					<path d="M6 7C5.44772 7 5 7.44772 5 8C5 8.55228 5.44772 9 6 9H10C10.5523 9 11 8.55228 11 8C11 7.44772 10.5523 7 10 7H6Z" fill="currentColor"></path>
+					<path d="M6 11C5.44772 11 5 11.4477 5 12C5 12.5523 5.44772 13 6 13H10C10.5523 13 11 12.5523 11 12C11 11.4477 10.5523 11 10 11H6Z" fill="currentColor"></path>
+					<path d="M5 16C5 15.4477 5.44772 15 6 15H10C10.5523 15 11 15.4477 11 16C11 16.5523 10.5523 17 10 17H6C5.44772 17 5 16.5523 5 16Z" fill="currentColor"></path>
+					<path fill-rule="evenodd" clip-rule="evenodd" d="M4 3C2.34315 3 1 4.34315 1 6V18C1 19.6569 2.34315 21 4 21H20C21.6569 21 23 19.6569 23 18V6C23 4.34315 21.6569 3 20 3H4ZM20 5H4C3.44772 5 3 5.44772 3 6V18C3 18.5523 3.44772 19 4 19H20C20.5523 19 21 18.5523 21 18V6C21 5.44772 20.5523 5 20 5Z" fill="currentColor"></path>
+				</svg>
+			</div>
+			<div class="flex flex-col justify-center align-middle">
+		    	<p class="text-3xl font-semibold leading">
+				<span>5</span>+
+				</p>
+				<p class="capitalize aos-init aos-animate" data-aos="fade-right">Total projects</p>
+			</div>
+	 </div>
+
+	<div class="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-slate-800 bg-opacity-40 backdrop-blur-md transition-all ease-in aos-init aos-animate" data-aos="zoom-in-left">
+		<div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-red-500">
+			<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-9 w-9" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+				<path d="M172.2 226.8c-14.6-2.9-28.2 8.9-28.2 23.8V301c0 10.2 7.1 18.4 16.7 22 18.2 6.8 31.3 24.4 31.3 45 0 26.5-21.5 48-48 48s-48-21.5-48-48V120c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24v248c0 89.5 82.1 160.2 175 140.7 54.4-11.4 98.3-55.4 109.7-109.7 17.4-82.9-37-157.2-112.5-172.2zM209 0c-9.2-.5-17 6.8-17 16v31.6c0 8.5 6.6 15.5 15 15.9 129.4 7 233.4 112 240.9 241.5.5 8.4 7.5 15 15.9 15h32.1c9.2 0 16.5-7.8 16-17C503.4 139.8 372.2 8.6 209 0zm.3 96c-9.3-.7-17.3 6.7-17.3 16.1v32.1c0 8.4 6.5 15.3 14.8 15.9 76.8 6.3 138 68.2 144.9 145.2.8 8.3 7.6 14.7 15.9 14.7h32.2c9.3 0 16.8-8 16.1-17.3-8.4-110.1-96.5-198.2-206.6-206.7z"></path>
+			</svg>
 		</div>
-		<div className="flex p-4 space-x-4 rounded-lg md:space-x-6 dark:bg-gray-900 dark:text-gray-100">
-			<div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-violet-400">
-				
-					<path d="M454.423,278.957,328,243.839v-8.185a116,116,0,1,0-104,0V312H199.582l-18.494-22.6a90.414,90.414,0,0,0-126.43-13.367,20.862,20.862,0,0,0-8.026,33.47L215.084,496H472V302.08A24.067,24.067,0,0,0,454.423,278.957ZM192,132a84,84,0,1,1,136,65.9V132a52,52,0,0,0-104,0v65.9A83.866,83.866,0,0,1,192,132ZM440,464H229.3L79.141,297.75a58.438,58.438,0,0,1,77.181,11.91l28.1,34.34H256V132a20,20,0,0,1,40,0V268.161l144,40Z"></path>
-		
-			</div>
-			<div className="flex flex-col justify-center align-middle">
-				<p className="text-3xl font-semibold leadi">1</p>
-				<p className="capitalize">Total Blogs</p>
-			</div>
-		</div>
-	</div>
+		<div class="flex flex-col justify-center align-middle">
+			<p class="text-3xl font-semibold leading">
+				<span>5</span>+
+			</p>
+			<p class="capitalize aos-init aos-animate" data-aos="fade-right">Total Blogs</p>
+	   </div>
+ 	</div>
+ </div>		
 </section>
-    );
+	)
 };
 
 export default Count;

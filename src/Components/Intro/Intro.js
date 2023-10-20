@@ -8,7 +8,7 @@ const Intro = () => {
         <section id='intro'>
              <div className='introContent'>
               <span className='hello'>Hello,</span>
-              <span className='introText'>I'm <span className="introName">Faizul Haque</span><br/> 
+              <span className='introText'>I'm <span className="introName"> Md. Faizul Haque </span><br/> 
               <Typewriter words={[
                                  "(.Net)Developer", 
                                  "Web Application Developer",]}
@@ -24,7 +24,7 @@ const Intro = () => {
               </p>
               <Link><button className='btn'><img src='{btnImg}' alt=''/>About Me</button></Link>
             </div>
-            <img src='{bg}' alt='Profile' className='bg'/>
+            <img src='Assets/jpeg-2' alt='Profile' className='bg'/>
         </section>
     );
 };
