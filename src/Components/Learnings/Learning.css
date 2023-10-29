@@ -18,16 +18,17 @@
   }
 
   .vertical-timeline-element-icon{
-    --web-box-shadow: none !important;
-    --box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
   }
-
+  
   .vertical-timeline::after{
     content: none !important;
   }
 
-.vertical-timeline--animate .vertical-timeline-element-content.bounce-in{
+.vertical-timeline--animate .vertical-timeline-element-content {
  -visibility: visible;
  -webkit-animation: none !important;
- animation: none!important;
+ animation:forwards!important;
 }

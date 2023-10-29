@@ -1,12 +1,12 @@
 import React from 'react';
-import  './Skill.css'
+import  './Skill.css';
 
 const Skill = () => {
     return (
        <div class="opacity-90 flex justify-center rounded-lg shadow-xl py-20 aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="w-3/4 md:w-2/4 " id="titlehead">
                  <h1 class="text-4xl text-center text-orange-600 font-bold uppercase aos-init aos-animate" data-aos="zoom-in-right">Skills</h1>
-<p class="text-xl text-center text-white font-semibold mt-5 aos-init aos-animate" data-aos="zoom-in-left">Skills are the expertise or talent needed in order to do a job or task.</p>
+<p class="text-xl text-center text-white font-semibold mt-5 aos-init aos-animate" data-aos="zoom-in-left">Technology are required or talent needed in order to do a job or task.</p>
        <div class="grid grid-cols-3 md:grid-cols-4 justify-items-center gap-8 my-10">
                <div class="logo-cart aos-init aos-animate" data-aos="fade-up-right">
                      <div class="logo-cart-inner">

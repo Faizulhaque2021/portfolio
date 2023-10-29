@@ -6,6 +6,10 @@ import Intro from './Components/Intro/Intro';
 import Count from './Components/Count/Count';
 import Skill from './Components/Skill/Skill';
 import Leaning from './Components/Learnings/Leaning';
+import Services from './Components/Services/Services';
+import Contact from './Components/Contacts/Contact';
+import Footer from './Components/Footer/Footer';
+
 
 function App() {
   useEffect(()=>{
@@ -17,7 +21,10 @@ function App() {
       <Intro></Intro>
       <Count></Count>
       <Skill></Skill>
-      <Leaning></Leaning>
+      <Leaning></Leaning> 
+      <Services></Services>
+      <Contact></Contact>
+      <Footer></Footer>
     </div>
   );
 }

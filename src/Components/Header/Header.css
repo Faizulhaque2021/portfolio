@@ -12,11 +12,13 @@
     z-index: 3;
 }
 
+/*
 .logo{
     object-fit: cover;
     height: 3rem;
     width: 4rem;
 }
+*/
 
 .nav-item{
     margin: 1rem;
