@@ -3,10 +3,10 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import Header from './Components/Header/Header';
 import Intro from './Components/Intro/Intro';
+import Services from './Components/Services/Services';
 import Count from './Components/Count/Count';
 import Skill from './Components/Skill/Skill';
 import Leaning from './Components/Learnings/Leaning';
-import Services from './Components/Services/Services';
 import Contact from './Components/Contacts/Contact';
 import Footer from './Components/Footer/Footer';
 

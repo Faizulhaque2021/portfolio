@@ -10,14 +10,14 @@ const Intro = () => {
               <span className='hello'>Hello,</span>
               <span className='introText'>I'm <span className="introName"> Md. Faizul Haque </span><br/> 
               <Typewriter words={[
-                                 "(.Net)Developer", 
-                                 "Web Application Developer",]}
+                                 "(.NET)Developer", "Web Application Developer",]}
                                     loop={"auto"}
                                     cursor
                                     cursorStyle=""
-                                    typeSpeed={80}
+                                    typeSpeed={90}
                                     deleteSpeed={60}
-                                    delaySpeed={1000}/></span>
+                                    delaySpeed={1000}/>
+                             </span>
               <p className='introPara'>Junior Dotnet Developer with a passion for Web Applications <br/>
                  Development. Passionate about learning new technologies.<br/> Seeking
                  opportunities and challanges that will improve my skill set.

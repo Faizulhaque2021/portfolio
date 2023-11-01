@@ -11,7 +11,7 @@ const Contact = () => {
                             <div class="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md mx-5 mt-10">
                                 <div class="lg:w-1/2 px-6">
                                     <h2 class="title-font font-semibold tracking-widest text-xs aos-init aos-animate" data-aos="fade-right">ADDRESS</h2>
-                                        <p class="mt-1 aos-init aos-animate" data-aos="fade-right">Middle Badda Bazar Road, Dhaka-1212, Bangladesh</p></div>
+                                        <p class="mt-1 aos-init aos-animate" data-aos="fade-right">Middle Badda Bazar Road,<br/> Dhaka-1212, Bangladesh</p></div>
                            <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
                             <h2 class="title-font font-semibold text-white tracking-widest text-xs aos-init aos-animate" data-aos="fade-right">EMAIL</h2>
                                <a href="mailto:Faizulhaque2021@gmail.com" class="text-red-400 leading-relaxed cursor-pointer aos-init" data-aos="fade-right">Faizulhaque2021@gmail.com</a>
