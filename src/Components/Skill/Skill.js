@@ -6,35 +6,35 @@ const Skill = () => {
        <div class="opacity-90 flex justify-center rounded-lg shadow-xl py-20 aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
             <div class="w-3/4 md:w-2/4 " id="titlehead">
                  <h1 class="text-4xl text-center text-orange-600 font-bold uppercase aos-init aos-animate" data-aos="zoom-in-right">Skills</h1>
-<p class="text-xl text-center text-white font-semibold mt-5 aos-init aos-animate" data-aos="zoom-in-left">Technology are required or talent needed in order to do a job or task.</p>
-       <div class="grid grid-cols-3 md:grid-cols-4 justify-items-center gap-8 my-10">
-               <div class="logo-cart aos-init aos-animate" data-aos="fade-up-right">
-                     <div class="logo-cart-inner">
-                        <div class="logo-front logoShadow rounded-2xl flex justify-center items-center">
-                              <span class="text-orange-400  text-4xl">
-                                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                                    <title></title>
-   <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"></path>
-      </svg>
-  </span>
-                        </div>
-    <div class="logo-back rounded-2xl logoShadow text-orange-400 text-sm flex justify-center items-center">
-         <span>HTML5</span>
-</div>
-   </div>
-         </div>
-            <div class="logo-cart aos-init aos-animate" data-aos="fade-up">
-                     <div class="logo-cart-inner">
+                  <p class="text-xl text-center text-white font-semibold mt-5 aos-init aos-animate" data-aos="zoom-in-left">Technology for hiring talent in order to do a job or task.</p>
+                  <div class="grid grid-cols-3 md:grid-cols-4 justify-items-center gap-8 my-10">
+                     <div class="logo-cart aos-init aos-animate" data-aos="fade-up-right">
+                        <div class="logo-cart-inner">
                            <div class="logo-front logoShadow rounded-2xl flex justify-center items-center">
-                                    <span class="text-orange-400 text-4xl">
-            <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-                     <title></title>
-            <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z">
-            </path>
-         </svg>
-      </span>
-            </div>
-               <div class="logo-back rounded-2xl logoShadow text-orange-400 text-sm flex justify-center items-center">
+                              <span class="text-orange-400 text-4xl">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                       <title></title>
+                                    <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"></path>
+                                    </svg>
+                              </span>
+                           </div>
+                           <div class="logo-back rounded-2xl logoShadow text-orange-400 text-sm flex justify-center items-center">
+                                 <span>HTML5</span>
+                           </div>
+                        </div>
+                   </div>
+                  <div class="logo-cart aos-init aos-animate" data-aos="fade-up">
+                        <div class="logo-cart-inner">
+                           <div class="logo-front logoShadow rounded-2xl flex justify-center items-center">
+                              <span class="text-orange-400 text-4xl">
+                                    <svg stroke="currentColor" fill="currentColor" stroke-width="0" role="img" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                       <title></title>
+                                          <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.565-2.438L1.5 0zm17.09 4.413L5.41 4.41l.213 2.622 10.125.002-.255 2.716h-6.64l.24 2.573h6.182l-.366 3.523-2.91.804-2.956-.81-.188-2.11h-2.61l.29 3.855L12 19.288l5.373-1.53L18.59 4.414z">
+                                          </path>
+                                    </svg>
+                              </span>
+                           </div>
+                  <div class="logo-back rounded-2xl logoShadow text-orange-400 text-sm flex justify-center items-center">
                         <span>CSS3</span>
       </div>
             </div>

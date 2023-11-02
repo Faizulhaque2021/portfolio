@@ -4,39 +4,54 @@ import './Services.css'
 const Services = () => {
     return (
         <div className='shadow-xl'>
-           <div class="my-10">
-              <h1 class="text-4xl text-center text-orange-600 font-bold uppercase titlehead aos-init aos-animate" data-aos="fade-right">Services</h1>
-                   <p class="text-xl text-center text-white font-semibold mt-5 aos-init aos-animate" data-aos="fade-left">Offer for Clients</p>
-          </div>
-        <section class="max-w-7xl max-auto px-5 my-6 text-white aos-init aos-animate" data-aos-anchor-placement="top-bottom" data-aos="fade-right">
-                <div class="my-16 flex flex-col md:flex-row justify-around items-center gap-12">
-                    <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
-                            <img src='/src/Images/img-1.svg' alt='' class="w-[500px] mb-12 max-auto"/>
-                            <h5 class="text-center my-5 text-xl">Web Application Development</h5>
-                            <p class="text-justify">
-                                * ASP NET MVC <br/>
-                                * ASP NET CORE <br/>
-                                * Using Clean Architecture. 
-                            </p>
-                    </div>
-                    <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
-                            <img src='' alt='' class="w-[500px] mb-12 max-auto"/>
-                            <h5 class="text-center my-5 text-xl">Web Development</h5>
-                            <p class="text-justify">
-                                * Complete Website Development <br/>
-                                * Technology Using React   
-                            </p>
-                    </div>
-                    <div class="w-[354px] px-5 py-8 rounded-lg border border-primary shadow-[#5dadec3b] cursor-pointer shadow-xl">
-                            <img src='' alt='' class="w-[500px] mb-12 max-auto"/>
-                            <h5 class="text-center my-5 text-xl">Amazon Web Service</h5>
-                            <p class="text-justify">
-                                lorem
-                            </p>
-                    </div>
+                     <div class="my-10">
+                            <h1 class="text-4xl text-center text-orange-600 font-bold uppercase titlehead aos-init aos-animate" data-aos="fade-right">Services</h1>
+                            <p class="text-xl text-center text-white font-semibold mt-5 aos-init aos-animate" data-aos="fade-left">Offer for Clients</p>
+                     </div>
+            <section class="flex flex-col items-center max-w-7xl max-auto px-6 my-5 text-white aos-init aos-animate" data-aos-anchor-placement="top-bottom" data-aos="fade-right">
+                <div class="my-16 flex flex-col md:flex-row justify-around items-center gap-5">
+                    <div class="transform rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:rotate-90">
+                        <div class="card glass max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
+                            <a href="{}">
+                            <figure><img class="w-full rounded-t-lg" src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt="Sunset in the mountains"/></figure>
+                                <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+                            </a>
+                            <a href="{}" class="items-center font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">
+                                <h5 class="mb-2 text-sm font-bold text-center tracking-tight text-gray-900 dark:text-white">Web Application Development</h5>
+                            </a> 
+                            <p class="text-gray-500 text-md"></p>
+                      </div>
+                   </div>
+                  <div class="transform rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:rotate-90">
+                        <div class="card glass max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
+                               <a href="{}">
+                               <figure><img class="w-full" src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt="Sunset in the mountains"/></figure>
+                                     <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+                               </a>
+                               <a href="{}" class="font-semibold text-lg text-center inline-block hover:text-indigo-600 transition duration-500 ease-in-out">
+                                    <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-white">Web Development</h5>
+                               </a>
+                               <p class="text-gray-500 text-sm"></p>
+                        </div>
+                 </div>
+                 <div class="transform rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:rotate-90">
+                            <div class="card glass max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
+                                <a href="{}" class="rounded-t-lg">
+                                <figure><img class="w-full" src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt="Sunset in the mountains"/></figure>
+                                <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
+                               </a>
+                               <a href="{}" class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">
+                                <h5 class="mb-2 text-sm font-bold tracking-tight text-gray-900 dark:text-white">Amazon Web Service</h5>
+                               </a>
+                              <p class="text-gray-500 text-md"></p>
+                        </div>
+                        <div class="flex items-center justify-between"></div>
                 </div>
-            </section>
+   
+                        <div class="card card-side bg-base-100 shadow-xl"></div>
         </div>
+    </section>
+     </div>
     );
 };
 
