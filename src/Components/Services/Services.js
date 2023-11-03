@@ -13,7 +13,7 @@ const Services = () => {
                     <div class="transform rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:rotate-90">
                         <div class="card glass max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
                             <a href="{}">
-                            <figure><img class="w-full rounded-t-lg" src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt="Sunset in the mountains"/></figure>
+                            <figure><img class="w-full rounded-t" src="https://i.ibb.co/8Y8sF8G/aspnet-featured.png w=300" alt="Sunset in the mountains"/></figure>
                                 <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                             </a>
                             <a href="{}" class="items-center font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">
@@ -25,7 +25,7 @@ const Services = () => {
                   <div class="transform rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:rotate-90">
                         <div class="card glass max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
                                <a href="{}">
-                               <figure><img class="w-full" src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt="Sunset in the mountains"/></figure>
+                               <figure><img class="w-full rounded-t" src="https://i.ibb.co/VjPpSLn/Mern.jpg w=500" alt="Sunset in the mountains"/></figure>
                                      <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                                </a>
                                <a href="{}" class="font-semibold text-lg text-center inline-block hover:text-indigo-600 transition duration-500 ease-in-out">
@@ -37,7 +37,7 @@ const Services = () => {
                  <div class="transform rounded-xl h-40 w-40 sm:h-64 sm:w-64 bg-white shadow-xl transition duration-300 hover:rotate-90">
                             <div class="card glass max-w-sm bg-white border border-gray-200 rounded-md shadow dark:bg-gray-800 dark:border-gray-700">
                                 <a href="{}" class="rounded-t-lg">
-                                <figure><img class="w-full" src="https://images.pexels.com/photos/196667/pexels-photo-196667.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=1&amp;w=500" alt="Sunset in the mountains"/></figure>
+                                <figure><img class="w-full" src="https://i.ibb.co/PWZBJpY/AWS.jpg w=500" alt="Sunset in the mountains"/></figure>
                                 <div class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
                                </a>
                                <a href="{}" class="font-semibold text-lg inline-block hover:text-indigo-600 transition duration-500 ease-in-out">

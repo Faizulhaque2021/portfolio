@@ -8,9 +8,9 @@ const Intro = () => {
         <section id='intro'>
              <div className='introContent'>
               <span className='hello'>Hello,</span>
-              <span className='introText'>I'm <span className="introName"> Md. Faizul Haque </span><br/> 
+              <span className='introText'>I'm <span className="introName">Md. Faizul Haque</span><br/> 
               <Typewriter words={[
-                                 "(.NET)Developer", "Web Application Developer",]}
+                                 "(.NET)Developer",]}
                                     loop={"auto"}
                                     cursor
                                     cursorStyle=""
