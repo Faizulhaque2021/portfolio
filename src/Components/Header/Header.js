@@ -4,14 +4,14 @@ import './Header.css'
 
 const Header = () => {
     const downloadPdf = () => {
-        fetch("/public/Faizul-Haque-CV.pdf").then((response) => {
+        fetch("Faizul-Haque-CV.pdf").then((response) => {
             response.blob().then((blob) => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement("a");
                 alink.href = fileURL;
-                alink.download = "Faizul-Haque-CV.pdf";
+                alink.download ="Faizul-Haque-CV.pdf";
                 alink.click();
             });
         });
