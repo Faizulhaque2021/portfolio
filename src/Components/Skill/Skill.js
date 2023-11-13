@@ -33,16 +33,16 @@ const Skill = () => {
                                                    </svg>
                                                 </span>
                                              </div>
-                                       <div class="logo-back rounded-2xl logoShadow text-orange-400 text-sm flex justify-center items-center">
-                                                   <span>CSS3</span>
-                                      </div>
-                                    </div>
+                                 <div class="logo-back rounded-2xl logoShadow text-orange-400 text-sm flex justify-center items-center">
+                                       <span>CSS3</span>
+                                 </div>
+                           </div>
                      </div>
                      <div class="logo-cart aos-init aos-animate" data-aos="fade-up">
                               <div class="logo-cart-inner">
                                  <div class="logo-front logoShadow rounded-2xl flex justify-center items-center">
                                           <span class="text-orange-400 text-4xl">
-                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 128 128" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 128 128" height="50" width="50" xmlns="http://www.w3.org/2000/svg">
                                             <path fill="#68217a" d="M95 2.3l30.5 12.3v98.7L94.8 125.7 45.8 77l-31 24.1L2.5 94.9V33.1l12.3-5.9 31 24.3ZM14.8 45.7V83.2l18.5-19Zm48.1 18.5L94.8 89.3V39Z"></path>
                                             </svg>
                                           </span>
@@ -57,7 +57,7 @@ const Skill = () => {
                      <div class="logo-cart-inner">
                         <div class="logo-front logoShadow rounded-2xl flex justify-center items-center">
                               <span class="text-orange-400  text-4xl">
-                              <svg xmlns="http://www.w3.org/2000/svg" fill="#FF9800" height="60" width="60" viewBox="0 0 150 150" id="microsoft-dot-net">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="#FF9800" height="55" width="55" viewBox="0 0 140 140" id="microsoft-dot-net">
                               <path d="M30.762 77.907h-1.74v-9.963c0-.787.051-1.745.144-2.875h-.039c-.164.661-.313 1.14-.444 1.436l-5.061 11.402h-.848l-5.071-11.319c-.142-.316-.292-.825-.443-1.519h-.038c.054.594.084 1.558.084 2.895v9.943h-1.679v-14.837h2.296l4.552 10.347c.343.779.565 1.372.673 
                               1.776h.071c.298-.811.534-1.42.711-1.82l4.651-10.303h2.179v14.837h.002zM36.118 77.907h-1.692v-10.595h1.692v10.595zm.292-14.394c0 .313-.11.573-.328.787-.213.214-.479.322-.788.322-.303 0-.566-.104-.782-.311-.216-.208-.322-.473-.322-.799 0-.306.106-.567.322-.779.216-.212.479-.314.782-.314.31 0 .575.103.788.314.218.213.328.474.328.78M46.691 77.417c-.812.499-1.781.746-2.902.746-1.52 
                               0-2.742-.504-3.676-1.511-.908-.978-1.364-2.24-1.364-3.786 0-1.736.496-3.141 1.497-4.209.996-1.069 2.334-1.603 4.018-1.603.92 0 1.737.18 2.452.538v1.741c-.791-.555-1.627-.831-2.525-.831-1.079 0-1.957.377-2.637 1.128-.709.77-1.068 

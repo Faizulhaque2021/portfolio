@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
@@ -35,6 +36,7 @@
     "react-swiper": "^0.1.5",
     "react-vertical-timeline-component": "^3.6.0",
     "sass": "^1.69.3",
+    "send_email_package": "^1.1.1",
     "sweetalert2": "^11.7.32",
     "swiper": "^10.3.1",
     "web-vitals": "^2.1.4"
