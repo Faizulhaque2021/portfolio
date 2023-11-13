@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css'
 
-
 const Header = () => {
     const downloadPdf = () => {
         fetch("Faizul-Haque-CV.pdf").then((response) => {
@@ -31,8 +30,6 @@ const Header = () => {
         </div>  
     ); 
 };
-
-
 
 
 export default Header;

@@ -32,3 +32,8 @@
  -webkit-animation: none !important;
  animation:forwards!important;
 }
+
+.vertical-timeline-element-content p {
+   margin: 0 !important; 
+  line-height: 1.6;
+}
