@@ -7,7 +7,6 @@ import  emailjs from '@emailjs/browser';
 const form = useRef(); 
 const sendEmail = (e) => {
     e.preventDefault();
-
     emailjs.sendForm('service_8chhuok', 'template_zhmjiog', form.current, 'aRfL1WdSHZYmcUbUh')
       .then((result) => {
           console.log('Email Send!', result.status ,result.text);
@@ -38,7 +37,6 @@ const sendEmail = (e) => {
                 <div class="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 aos-init aos-animate" data-aos="fade-right">
                             <h2 class="text-white text-4xl mb-1 font-medium title-font aos-init aos-animate" data-aos="fade-right">Get in touch</h2>
                             <p class="leading-relaxed mb-5 aos-init aos-animate" data-aos="fade-right">Fill in the form to start a conversation</p>
-
                     <form ref={form} onSubmit={sendEmail} class="flex flex-col py-6 space-y-6 md:py-0 md:px-6 ng-untouched ng-pristine ng-valid">
                             <div class="relative mb-4">
                                 <label for="name" class="leading-7 text-sm text-gray-400 aos-init aos-animate" data-aos="fade-right">Name</label>

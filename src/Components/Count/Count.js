@@ -22,7 +22,6 @@ const Count = () => {
 					<p class="capitalize aos-init aos-animate" data-aos="fade-right">Total Visited</p>
 				</div>
 		    </div>
-
 		<div class="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-slate-800 bg-opacity-40 backdrop-blur-md transition-all ease-in aos-init aos-animate" data-aos="zoom-in">
 			<div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-red-500">
 					<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 16 16" class="h-9 w-9" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
@@ -37,8 +36,7 @@ const Count = () => {
 					<p class="capitalize aos-init aos-animate" data-aos="fade-right">Resume Download</p>
 			</div>
 	   </div>
-
-	  <div class="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-slate-800 bg-opacity-40 backdrop-blur-md transition-all ease-in aos-init aos-animate" data-aos="zoom-in">
+	<div class="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-slate-800 bg-opacity-40 backdrop-blur-md transition-all ease-in aos-init aos-animate" data-aos="zoom-in">
 			<div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-red-500">
 				<svg stroke="currentColor" fill="none" stroke-width="0" viewBox="0 0 24 24" class="h-9 w-9" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
 					<path fill-rule="evenodd" clip-rule="evenodd" d="M14 7C13.4477 7 13 7.44772 13 8V16C13 16.5523 13.4477 17 14 17H18C18.5523 17 19 16.5523 19 16V8C19 7.44772 18.5523 7 18 7H14ZM17 9H15V15H17V9Z" fill="currentColor"></path>
@@ -55,7 +53,6 @@ const Count = () => {
 				<p class="capitalize aos-init aos-animate" data-aos="fade-right">Total projects</p>
 			</div>
 	 </div>
-
 	<div class="flex p-4 space-x-4 rounded-lg md:space-x-6 bg-slate-800 bg-opacity-40 backdrop-blur-md transition-all ease-in aos-init aos-animate" data-aos="zoom-in-left">
 		<div class="flex justify-center p-2 align-middle rounded-lg sm:p-4 bg-red-500">
 			<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="h-9 w-9" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
