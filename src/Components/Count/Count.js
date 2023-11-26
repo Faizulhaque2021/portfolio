@@ -17,7 +17,7 @@ const Count = () => {
 					</div>
 				 <div class="flex flex-col justify-center align-middle">
 					<p class="text-3xl font-semibold leadi">
-						<span>282</span>+
+						<span></span>+
 					</p>
 					<p class="capitalize aos-init aos-animate" data-aos="fade-right">Total Visited</p>
 				</div>

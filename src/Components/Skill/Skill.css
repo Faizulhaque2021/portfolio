@@ -18,11 +18,9 @@
   transform-style: preserve-3d;
 }
 
-
 .logo-cart:hover .logo-cart-inner{
   transform: rotateY(180deg);
 }
-
 
 .logo-front, .logo-back{
   position: absolute;
@@ -54,7 +52,8 @@
     background-size:cover;
   }
 
-  .overflow-hidden {
+.overflow-hidden {
     overflow: hidden;
 }
+
 }

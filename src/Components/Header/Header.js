@@ -15,6 +15,15 @@ const Header = () => {
             });
         });
     };
+    const resumeCount = () => {
+        fetch('http://localhost:5000/resume', {
+            method: 'PUT',
+        })
+            .then((response) => response.json())
+            .then((data) => {
+
+       });
+     };
     return (
         <div className='navbar p-2 flex justify-between items-center bg-opacity-40 transition-all case-in border-x-2 rounded-full bg-grey-700 backdrop-blur-md text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-200 dark:bg-neutral-400 lg:rounded-lg border-[#889200]'> 
             <img src='/src/Images/jpeg-2.jpg' alt=''/>
@@ -26,7 +35,10 @@ const Header = () => {
                     <li className='nav-item'><a href='#skill'>Skill</a></li>
                     <li className='nav-item'><a href='#contact'>Contact</a></li>
             </ul>
-            <button className='manuBtn flex items-center' onClick={downloadPdf}>Resume</button>
+            <div  onClick={resumeCount}>
+               <button className='manuBtn flex items-center' onClick={downloadPdf}>Resume</button>
+            </div>
+            
         </div>  
     ); 
 };
