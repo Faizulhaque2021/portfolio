@@ -2,8 +2,9 @@ import React from 'react';
 import './Services.css'
 
 const Services = () => {
+    
     return (
-        <div className='shadow-xl'>
+        <div className='shadow-xl' id='services'>
                      <div class="my-10">
                             <h1 class="text-4xl text-center text-orange-600 font-bold uppercase titlehead aos-init aos-animate" data-aos="fade-right">Services</h1>
                             <p class="text-xl text-center text-white font-semibold mt-2 aos-init aos-animate" data-aos="fade-left">Offer for Clients</p>

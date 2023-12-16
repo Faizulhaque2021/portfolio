@@ -33,7 +33,7 @@ const Leaning = () => {
                         <h3 className="text-xl" data-aos="fade-right">
                             Diploma in Enterprise Systems <br/> Analysis & Design
                         </h3>
-                        <h5 className="" data-aos="fade-right">ISDB-BISEW IT Scholarship Project</h5>
+                        <h5 className="" data-aos="fade-right">IsDB-BISEW IT Scholarship Project</h5>
                         <h5 className="" data-aos="fade-right">Round:39</h5>
                         <p className="text-light" data-aos="fade-left"></p>
           </VerticalTimelineElement>
@@ -100,7 +100,7 @@ const Leaning = () => {
              >
                          <h3 className="text-xl" data-aos="fade-right">S.S.C</h3>
                          <h5 className="" data-aos="fade-right">Ibn Taimiya School & College</h5>
-                         <p className="text-light" data-aos="fade-left">I always want to learn and implement newer things.  I was a very quick learner.</p>
+                         <p className="text-light" data-aos="fade-left">I always want to learn and implement newer things.<br/>I was a very quick learner.</p>
             </VerticalTimelineElement>
      </VerticalTimeline>
 </div>

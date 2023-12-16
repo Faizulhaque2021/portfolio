@@ -3,14 +3,14 @@ import './Header.css'
 
 const Header = () => {
     const downloadPdf = () => {
-        fetch("Faizul-Haque-CV.pdf").then((response) => {
+        fetch("Md_Faizul_Haque_CV.pdf").then((response) => {
             response.blob().then((blob) => {
                 // Creating new object of PDF file
                 const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement("a");
                 alink.href = fileURL;
-                alink.download ="Faizul-Haque-CV.pdf";
+                alink.download ="Md_Faizul_Haque_CV.pdf";
                 alink.click();
             });
         });
@@ -21,7 +21,7 @@ const Header = () => {
         })
             .then((response) => response.json())
             .then((data) => {
-
+console.log(data);
        });
      };
     return (

@@ -1,7 +1,13 @@
 import React from 'react';
 import './Count.css'
+import axios from 'axios';
+import { useQuery } from 'react-query';
 
 const Count = () => {
+	const { data: resume, refetch: refetchResume } = useQuery("resume", () =>
+        axios('http://localhost:5000/resume')
+    );
+     refetchResume()
     return (
 		<section className='p-6 my-6 dark:bg-gray-800 dark:text-gray-100'>
 			<div class="mx-5 grid grid-cols-1 gap-6 sm:grid-cols-2 xl:grid-cols-4">
@@ -17,7 +23,7 @@ const Count = () => {
 					</div>
 				 <div class="flex flex-col justify-center align-middle">
 					<p class="text-3xl font-semibold leadi">
-						<span></span>+
+						<span>0</span>+
 					</p>
 					<p class="capitalize aos-init aos-animate" data-aos="fade-right">Total Visited</p>
 				</div>
@@ -31,7 +37,7 @@ const Count = () => {
 			</div>
 			<div class="flex flex-col justify-center align-middle">
 					<p class="text-3xl font-semibold leadi">
-						<span>98</span>+
+						<span>{resume?.data?.count}</span>+
 					</p>
 					<p class="capitalize aos-init aos-animate" data-aos="fade-right">Resume Download</p>
 			</div>
@@ -48,7 +54,7 @@ const Count = () => {
 			</div>
 			<div class="flex flex-col justify-center align-middle">
 		    	<p class="text-3xl font-semibold leading">
-				<span>5</span>+
+				<span>0</span>+
 				</p>
 				<p class="capitalize aos-init aos-animate" data-aos="fade-right">Total projects</p>
 			</div>
@@ -61,7 +67,7 @@ const Count = () => {
 		</div>
 		<div class="flex flex-col justify-center align-middle">
 			<p class="text-3xl font-semibold leading">
-				<span>5</span>+
+				<span>0</span>+
 			</p>
 			<p class="capitalize aos-init aos-animate" data-aos="fade-right">Total Blogs</p>
 	   </div>
